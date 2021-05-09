@@ -1,0 +1,21 @@
+#include "Matrix/Matrix.h"
+#include "Vector/Vector.h"
+#include "Linagb/Linagb.h"
+
+int main() {
+
+    Matrix *test1 = newMatrix("Matrix_1" ,3,4, 1.5);
+    Matrix *test2 = newMatrix("Matrix_2", 4,5, 2);
+    Matrix *test3 = newMatrix("Matrix_3", 2,4, -1.2);
+
+    Matrix *test5 = mDot(test1, test2);
+    Matrix *test4 = append(test1, test3);
+
+    Vector *vt1 = newVector("bias", 5, 0);
+    Vector *vt2 = newVector("weight", 4, 1.1);
+
+    printf("Here print list\n");
+    printList();
+    cleanList(head);
+    return 0;
+}
