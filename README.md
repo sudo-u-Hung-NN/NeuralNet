@@ -3,9 +3,9 @@ Code entirely with C language
 
 Contact: 
 
-*Mail*: hung.nn184118@sis.hust.edu.vn *or* nguyennanghung20@gmail.com
+📬*Mail*: hung.nn184118@sis.hust.edu.vn *or* nguyennanghung20@gmail.com
 
-*Facebook*: [Nguyễn Năng Hưng](https://www.facebook.com/hung.nguyennang.96/) 
+🦊*Facebook*: [Nguyễn Năng Hưng](https://www.facebook.com/hung.nguyennang.96/) 
 
 ## File Structure
 
