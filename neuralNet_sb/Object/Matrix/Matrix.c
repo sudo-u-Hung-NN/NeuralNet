@@ -1,7 +1,7 @@
 //
 // Created by ashitaka on 08/05/2021.
 //
-#include "../Object/ObjectManager.h"
+#include "../ObjectManager.h"
 #include "Matrix.h"
 #include "string.h"
 #include "stdlib.h"

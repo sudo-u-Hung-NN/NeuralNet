@@ -14,7 +14,7 @@ void initInputLayer(const int num_node) {
     strcpy(inputLayer->name, "Input Layer");
     inputLayer->denseLayer = newDenseLayer(inputLayer->name ,num_node);
     inputLayer->typeLayer = DENSE_LAYER;
-    lastLayer = inputLayer;
+    outputLayer = inputLayer;
 }
 
 Layer *newLayer(char* name){
@@ -36,9 +36,9 @@ void addDenseLayer(DenseLayer *denseLayer) {
     Layer *new = newLayer(denseLayer->name);
     new->typeLayer = DENSE_LAYER;
     new->denseLayer = denseLayer;
-    lastLayer->next = new;
-    new->prev = lastLayer;
-    lastLayer = new;
+    outputLayer->next = new;
+    new->prev = outputLayer;
+    outputLayer = new;
 }
 
 void addSoftmaxLayer(SoftmaxLayer *softmaxLayer) {
@@ -48,9 +48,9 @@ void addSoftmaxLayer(SoftmaxLayer *softmaxLayer) {
     Layer *new = newLayer("Softmax");
     new->typeLayer = SOFTMAX_LAYER;
     new->softmaxLayer = softmaxLayer;
-    lastLayer->next = new;
-    new->prev = lastLayer;
-    lastLayer = new;
+    outputLayer->next = new;
+    new->prev = outputLayer;
+    outputLayer = new;
 }
 
 void finishNetwork() {
@@ -91,6 +91,7 @@ void finishNetwork() {
 }
 
 void checkValidNet(){
+    printf("Network structure...\n");
     for (Layer *tmp = inputLayer;  tmp->next != NULL; tmp = tmp->next) {
         switch (tmp->typeLayer) {
             case DENSE_LAYER:
@@ -100,8 +101,10 @@ void checkValidNet(){
                 }
                 else {
                     printf("%d.%s\n", tmp->id, tmp->name);
-                    printMatrix(tmp->denseLayer->weights);
-                    printMatrix(tmp->denseLayer->bias);
+                    if (MODE) {
+                        printMatrix(tmp->denseLayer->weights);
+                        printMatrix(tmp->denseLayer->bias);
+                    }
                 }
                 break;
             case SOFTMAX_LAYER:
@@ -112,10 +115,39 @@ void checkValidNet(){
                 break;
         }
     }
+    printf("Printing structure: SUCCESS\n");
 }
 
 void deepNetGraph() {
     for (Layer *tmp = inputLayer;  tmp != NULL; tmp = tmp->next) {
         printf("{id:%d} %s \n", tmp->id, tmp->name);
     }
+}
+
+void freeLayer(Layer *tmp) {
+    if (!MODE)
+        printf("Free %s......", tmp->name);
+    free(tmp->name);
+    switch (tmp->typeLayer) {
+        case DENSE_LAYER:
+            free(tmp->denseLayer->name);
+            free(tmp->denseLayer);
+            break;
+        case SOFTMAX_LAYER:
+            free(tmp->softmaxLayer);
+            break;
+        default:
+            error(ERROR_INVALID_LAYER_TYPE, "freeLayer", "Layer.c");
+            break;
+    }
+    free(tmp);
+    if (!MODE)
+        printf("done\n");
+}
+
+void freeNet(Layer *tmp) {
+    if (tmp->next != NULL) {
+        freeNet(tmp->next);
+    }
+    freeLayer(tmp);
 }

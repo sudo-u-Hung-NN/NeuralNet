@@ -37,7 +37,7 @@ struct Layer {
 
 int numlayer;
 Layer *inputLayer;
-Layer *lastLayer;
+Layer *outputLayer;
 
 void initInputLayer(const int num_node);
 void addDenseLayer(DenseLayer *denseLayer);
@@ -47,5 +47,8 @@ void finishNetwork();
 void checkValidNet();
 
 void deepNetGraph();
+
+void freeLayer(Layer* tmp);
+void freeNet(Layer *tmp);
 
 #endif //NEURALNET_SB_LAYER_H

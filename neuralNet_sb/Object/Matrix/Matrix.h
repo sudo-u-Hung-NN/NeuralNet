@@ -6,7 +6,7 @@
 #define NEURALNET_SB_MATRIX_H
 
 #include "../Vector/Vector.h"
-#include "../ExceptionHandling/error.h"
+#include "../../ExceptionHandling/error.h"
 
 typedef struct {
     char *name;

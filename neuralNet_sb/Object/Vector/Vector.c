@@ -1,7 +1,7 @@
 //
 // Created by ashitaka on 08/05/2021.
 //
-#include "../Object/ObjectManager.h"
+#include "../ObjectManager.h"
 #include "Vector.h"
 
 Vector *newVector(char *name, int length, double value){

@@ -6,8 +6,8 @@
 #define NEURALNET_SB_OBJECTMANAGER_H
 
 #include "stdlib.h"
-#include "../Matrix/Matrix.h"
-#include "../Vector/Vector.h"
+#include "../Object/Matrix/Matrix.h"
+#include "../Object/Vector/Vector.h"
 
 // Define constant
 #define MAX_NAME_LEN 100

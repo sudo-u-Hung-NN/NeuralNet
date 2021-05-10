@@ -1,4 +1,4 @@
-# Install script for directory: /home/ashitaka/Objective-C/neuralNet_sb
+# Install script for directory: /home/ashitaka/Objective-C/NeuralNet/neuralNet_sb
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ashitaka/Objective-C/neuralNet_sb/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

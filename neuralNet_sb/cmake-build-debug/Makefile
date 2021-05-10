@@ -67,10 +67,10 @@ RM = /snap/clion/151/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ashitaka/Objective-C/neuralNet_sb
+CMAKE_SOURCE_DIR = /home/ashitaka/Objective-C/NeuralNet/neuralNet_sb
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ashitaka/Objective-C/neuralNet_sb/cmake-build-debug
+CMAKE_BINARY_DIR = /home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ashitaka/Objective-C/neuralNet_sb/cmake-build-debug/CMakeFiles /home/ashitaka/Objective-C/neuralNet_sb/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/cmake-build-debug/CMakeFiles /home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ashitaka/Objective-C/neuralNet_sb/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -331,32 +331,32 @@ Linagb/Linagb.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuralNet_sb.dir/build.make CMakeFiles/neuralNet_sb.dir/Linagb/Linagb.c.s
 .PHONY : Linagb/Linagb.c.s
 
-Matrix/Matrix.o: Matrix/Matrix.c.o
+Object/Matrix/Matrix.o: Object/Matrix/Matrix.c.o
 
-.PHONY : Matrix/Matrix.o
+.PHONY : Object/Matrix/Matrix.o
 
 # target to build an object file
-Matrix/Matrix.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuralNet_sb.dir/build.make CMakeFiles/neuralNet_sb.dir/Matrix/Matrix.c.o
-.PHONY : Matrix/Matrix.c.o
+Object/Matrix/Matrix.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuralNet_sb.dir/build.make CMakeFiles/neuralNet_sb.dir/Object/Matrix/Matrix.c.o
+.PHONY : Object/Matrix/Matrix.c.o
 
-Matrix/Matrix.i: Matrix/Matrix.c.i
+Object/Matrix/Matrix.i: Object/Matrix/Matrix.c.i
 
-.PHONY : Matrix/Matrix.i
+.PHONY : Object/Matrix/Matrix.i
 
 # target to preprocess a source file
-Matrix/Matrix.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuralNet_sb.dir/build.make CMakeFiles/neuralNet_sb.dir/Matrix/Matrix.c.i
-.PHONY : Matrix/Matrix.c.i
+Object/Matrix/Matrix.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuralNet_sb.dir/build.make CMakeFiles/neuralNet_sb.dir/Object/Matrix/Matrix.c.i
+.PHONY : Object/Matrix/Matrix.c.i
 
-Matrix/Matrix.s: Matrix/Matrix.c.s
+Object/Matrix/Matrix.s: Object/Matrix/Matrix.c.s
 
-.PHONY : Matrix/Matrix.s
+.PHONY : Object/Matrix/Matrix.s
 
 # target to generate assembly for a file
-Matrix/Matrix.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuralNet_sb.dir/build.make CMakeFiles/neuralNet_sb.dir/Matrix/Matrix.c.s
-.PHONY : Matrix/Matrix.c.s
+Object/Matrix/Matrix.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuralNet_sb.dir/build.make CMakeFiles/neuralNet_sb.dir/Object/Matrix/Matrix.c.s
+.PHONY : Object/Matrix/Matrix.c.s
 
 Object/ObjectManager.o: Object/ObjectManager.c.o
 
@@ -385,32 +385,32 @@ Object/ObjectManager.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuralNet_sb.dir/build.make CMakeFiles/neuralNet_sb.dir/Object/ObjectManager.c.s
 .PHONY : Object/ObjectManager.c.s
 
-Vector/Vector.o: Vector/Vector.c.o
+Object/Vector/Vector.o: Object/Vector/Vector.c.o
 
-.PHONY : Vector/Vector.o
+.PHONY : Object/Vector/Vector.o
 
 # target to build an object file
-Vector/Vector.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuralNet_sb.dir/build.make CMakeFiles/neuralNet_sb.dir/Vector/Vector.c.o
-.PHONY : Vector/Vector.c.o
+Object/Vector/Vector.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuralNet_sb.dir/build.make CMakeFiles/neuralNet_sb.dir/Object/Vector/Vector.c.o
+.PHONY : Object/Vector/Vector.c.o
 
-Vector/Vector.i: Vector/Vector.c.i
+Object/Vector/Vector.i: Object/Vector/Vector.c.i
 
-.PHONY : Vector/Vector.i
+.PHONY : Object/Vector/Vector.i
 
 # target to preprocess a source file
-Vector/Vector.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuralNet_sb.dir/build.make CMakeFiles/neuralNet_sb.dir/Vector/Vector.c.i
-.PHONY : Vector/Vector.c.i
+Object/Vector/Vector.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuralNet_sb.dir/build.make CMakeFiles/neuralNet_sb.dir/Object/Vector/Vector.c.i
+.PHONY : Object/Vector/Vector.c.i
 
-Vector/Vector.s: Vector/Vector.c.s
+Object/Vector/Vector.s: Object/Vector/Vector.c.s
 
-.PHONY : Vector/Vector.s
+.PHONY : Object/Vector/Vector.s
 
 # target to generate assembly for a file
-Vector/Vector.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuralNet_sb.dir/build.make CMakeFiles/neuralNet_sb.dir/Vector/Vector.c.s
-.PHONY : Vector/Vector.c.s
+Object/Vector/Vector.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neuralNet_sb.dir/build.make CMakeFiles/neuralNet_sb.dir/Object/Vector/Vector.c.s
+.PHONY : Object/Vector/Vector.c.s
 
 main.o: main.c.o
 
@@ -469,15 +469,15 @@ help:
 	@echo "... Linagb/Linagb.o"
 	@echo "... Linagb/Linagb.i"
 	@echo "... Linagb/Linagb.s"
-	@echo "... Matrix/Matrix.o"
-	@echo "... Matrix/Matrix.i"
-	@echo "... Matrix/Matrix.s"
+	@echo "... Object/Matrix/Matrix.o"
+	@echo "... Object/Matrix/Matrix.i"
+	@echo "... Object/Matrix/Matrix.s"
 	@echo "... Object/ObjectManager.o"
 	@echo "... Object/ObjectManager.i"
 	@echo "... Object/ObjectManager.s"
-	@echo "... Vector/Vector.o"
-	@echo "... Vector/Vector.i"
-	@echo "... Vector/Vector.s"
+	@echo "... Object/Vector/Vector.o"
+	@echo "... Object/Vector/Vector.i"
+	@echo "... Object/Vector/Vector.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

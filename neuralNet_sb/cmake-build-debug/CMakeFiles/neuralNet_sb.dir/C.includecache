@@ -6,89 +6,83 @@
 
 #IncludeRegexTransform: 
 
-/home/ashitaka/Objective-C/neuralNet_sb/ExceptionHandling/error.h
+/home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/ExceptionHandling/error.h
 stdio.h
-/home/ashitaka/Objective-C/neuralNet_sb/ExceptionHandling/stdio.h
+/home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/ExceptionHandling/stdio.h
 
-/home/ashitaka/Objective-C/neuralNet_sb/Layer/Activation/ReluActivationLayer.h
+/home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/Layer/Activation/ReluActivationLayer.h
 ../../Linagb/Linagb.h
-/home/ashitaka/Objective-C/neuralNet_sb/Linagb/Linagb.h
+/home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/Linagb/Linagb.h
 
-/home/ashitaka/Objective-C/neuralNet_sb/Layer/Activation/SigmoidActivationLayer.h
+/home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/Layer/Activation/SigmoidActivationLayer.h
 ../../Linagb/Linagb.h
-/home/ashitaka/Objective-C/neuralNet_sb/Linagb/Linagb.h
+/home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/Linagb/Linagb.h
 
-/home/ashitaka/Objective-C/neuralNet_sb/Layer/DenseLayer/DenseLayer.h
+/home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/Layer/DenseLayer/DenseLayer.h
 ../../Object/ObjectManager.h
-/home/ashitaka/Objective-C/neuralNet_sb/Object/ObjectManager.h
+/home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/Object/ObjectManager.h
 ../../ExceptionHandling/error.h
-/home/ashitaka/Objective-C/neuralNet_sb/ExceptionHandling/error.h
+/home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/ExceptionHandling/error.h
 ../../Linagb/Linagb.h
-/home/ashitaka/Objective-C/neuralNet_sb/Linagb/Linagb.h
+/home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/Linagb/Linagb.h
 ../Activation/SigmoidActivationLayer.h
-/home/ashitaka/Objective-C/neuralNet_sb/Layer/Activation/SigmoidActivationLayer.h
+/home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/Layer/Activation/SigmoidActivationLayer.h
 ../Activation/ReluActivationLayer.h
-/home/ashitaka/Objective-C/neuralNet_sb/Layer/Activation/ReluActivationLayer.h
+/home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/Layer/Activation/ReluActivationLayer.h
 
-/home/ashitaka/Objective-C/neuralNet_sb/Layer/Layer.c
+/home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/Layer/Layer.c
 Layer.h
-/home/ashitaka/Objective-C/neuralNet_sb/Layer/Layer.h
+/home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/Layer/Layer.h
 
-/home/ashitaka/Objective-C/neuralNet_sb/Layer/Layer.h
+/home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/Layer/Layer.h
 ../Object/ObjectManager.h
-/home/ashitaka/Objective-C/neuralNet_sb/Object/ObjectManager.h
+/home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/Object/ObjectManager.h
 ../ExceptionHandling/error.h
-/home/ashitaka/Objective-C/neuralNet_sb/ExceptionHandling/error.h
+/home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/ExceptionHandling/error.h
 ../Linagb/Linagb.h
-/home/ashitaka/Objective-C/neuralNet_sb/Linagb/Linagb.h
+/home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/Linagb/Linagb.h
 DenseLayer/DenseLayer.h
-/home/ashitaka/Objective-C/neuralNet_sb/Layer/DenseLayer/DenseLayer.h
+/home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/Layer/DenseLayer/DenseLayer.h
 SoftmaxLayer/SoftmaxLayer.h
-/home/ashitaka/Objective-C/neuralNet_sb/Layer/SoftmaxLayer/SoftmaxLayer.h
+/home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/Layer/SoftmaxLayer/SoftmaxLayer.h
 Activation/SigmoidActivationLayer.h
-/home/ashitaka/Objective-C/neuralNet_sb/Layer/Activation/SigmoidActivationLayer.h
+/home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/Layer/Activation/SigmoidActivationLayer.h
 Activation/ReluActivationLayer.h
-/home/ashitaka/Objective-C/neuralNet_sb/Layer/Activation/ReluActivationLayer.h
+/home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/Layer/Activation/ReluActivationLayer.h
 
-/home/ashitaka/Objective-C/neuralNet_sb/Layer/SoftmaxLayer/SoftmaxLayer.h
+/home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/Layer/SoftmaxLayer/SoftmaxLayer.h
 ../../Linagb/Linagb.h
-/home/ashitaka/Objective-C/neuralNet_sb/Linagb/Linagb.h
+/home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/Linagb/Linagb.h
 
-/home/ashitaka/Objective-C/neuralNet_sb/Linagb/Linagb.h
+/home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/Linagb/Linagb.h
 ../Object/ObjectManager.h
-/home/ashitaka/Objective-C/neuralNet_sb/Object/ObjectManager.h
-../Matrix/Matrix.h
-/home/ashitaka/Objective-C/neuralNet_sb/Matrix/Matrix.h
-../Vector/Vector.h
-/home/ashitaka/Objective-C/neuralNet_sb/Vector/Vector.h
+/home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/Object/ObjectManager.h
+../Object/Matrix/Matrix.h
+/home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/Object/Matrix/Matrix.h
+../Object/Vector/Vector.h
+/home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/Object/Vector/Vector.h
 
-/home/ashitaka/Objective-C/neuralNet_sb/Matrix/Matrix.h
+/home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/Object/Matrix/Matrix.h
 ../Vector/Vector.h
-/home/ashitaka/Objective-C/neuralNet_sb/Vector/Vector.h
-../ExceptionHandling/error.h
-/home/ashitaka/Objective-C/neuralNet_sb/ExceptionHandling/error.h
+/home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/Object/Vector/Vector.h
+../../ExceptionHandling/error.h
+/home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/ExceptionHandling/error.h
 
-/home/ashitaka/Objective-C/neuralNet_sb/Object/ObjectManager.h
+/home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/Object/ObjectManager.h
 stdlib.h
-/home/ashitaka/Objective-C/neuralNet_sb/Object/stdlib.h
-../Matrix/Matrix.h
-/home/ashitaka/Objective-C/neuralNet_sb/Matrix/Matrix.h
-../Vector/Vector.h
-/home/ashitaka/Objective-C/neuralNet_sb/Vector/Vector.h
+/home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/Object/stdlib.h
+../Object/Matrix/Matrix.h
+/home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/Object/Matrix/Matrix.h
+../Object/Vector/Vector.h
+/home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/Object/Vector/Vector.h
 
-/home/ashitaka/Objective-C/neuralNet_sb/Vector/Vector.h
+/home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/Object/Vector/Vector.h
 stdlib.h
-/home/ashitaka/Objective-C/neuralNet_sb/Vector/stdlib.h
+/home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/Object/Vector/stdlib.h
 stdio.h
-/home/ashitaka/Objective-C/neuralNet_sb/Vector/stdio.h
+/home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/Object/Vector/stdio.h
 string.h
-/home/ashitaka/Objective-C/neuralNet_sb/Vector/string.h
-../ExceptionHandling/error.h
-/home/ashitaka/Objective-C/neuralNet_sb/ExceptionHandling/error.h
-
-/home/ashitaka/Objective-C/neuralNet_sb/main.c
-Linagb/Linagb.h
-/home/ashitaka/Objective-C/neuralNet_sb/Linagb/Linagb.h
-Layer/Layer.h
-/home/ashitaka/Objective-C/neuralNet_sb/Layer/Layer.h
+/home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/Object/Vector/string.h
+../../ExceptionHandling/error.h
+/home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/ExceptionHandling/error.h
 

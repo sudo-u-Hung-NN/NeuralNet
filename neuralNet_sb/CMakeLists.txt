@@ -4,10 +4,10 @@ project(neuralNet_sb C)
 set(CMAKE_C_STANDARD 99)
 
 add_executable(neuralNet_sb main.c
-        Matrix/Matrix.h Matrix/Matrix.c
+        Object/Matrix/Matrix.h Object/Matrix/Matrix.c
         Linagb/Linagb.h Linagb/Linagb.c
         ExceptionHandling/error.h ExceptionHandling/error.c
-        Vector/Vector.h Vector/Vector.c
+        Object/Vector/Vector.h Object/Vector/Vector.c
 
         Object/ObjectManager.c Object/ObjectManager.h
         Layer/DenseLayer/DenseLayer.c Layer/DenseLayer/DenseLayer.h

@@ -7,7 +7,7 @@
 #include "stdlib.h"
 #include "stdio.h"
 #include "string.h"
-#include "../ExceptionHandling/error.h"
+#include "../../ExceptionHandling/error.h"
 
 typedef struct {
     char *name;
