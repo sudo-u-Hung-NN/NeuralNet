@@ -12,6 +12,23 @@ DenseLayer *newDenseLayer(char* name, int num_node) {
     return newdense;
 };
 
-void forwardLayer(Matrix *input) {
+/**
+ * currentDense layer has weight matrix of (num_output, num_input)
+ * also, bias matrix of (num_output, 1)
+ * output Matrix is a matrix of (num_example, num_output)
+ * @param inputM : Matrix of (num_example, num_input)
+ *
+ * FORMULA:               OutputM = InputM dot WeightM + BiasM
+ *      (num_example, num_output) = (num_example, num_input) dot (num_output, num_input)T + (num_output, 1)
+ */
+void forwardLayer(DenseLayer *currentDense, Matrix *input) {
+    Matrix *T = transpose(currentDense->weights);
+    Matrix *D = mDot(input, T);
+    Matrix *tmp = input;
 
+    input = mSum(D, currentDense->bias);
+
+    deleteMatrix(T);
+    deleteMatrix(D);
+    deleteMatrix(tmp);
 };

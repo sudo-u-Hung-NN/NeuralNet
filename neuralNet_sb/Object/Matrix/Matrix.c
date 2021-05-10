@@ -7,6 +7,7 @@
 #include "stdlib.h"
 #include "stdio.h"
 
+
 Matrix *newMatrix(char *name, int nrow, int ncol, double value) {
     if (strlen(name) > MAX_NAME_LEN) {
         error(ERROR_TOOLONG_NAME, "newMatrix", "Matrix.c");
@@ -154,4 +155,10 @@ Matrix *append(Matrix *a, Matrix *b) {
     }
 
     return mt;
+}
+
+void assignArray(double *Array, const double *data, int num_member) {
+    for (int i = 0; i < num_member; ++i) {
+        Array[i] = data[i];
+    }
 }

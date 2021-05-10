@@ -84,6 +84,41 @@ Matrix *mFlipSign(Matrix *b) {
     return mMuli(-1, b);
 }
 
+/**
+ * @param a
+ * @param b
+ * @return: a matrix of (a->row + b->row, a->col)
+ * ------a[1]------
+ * ------a[2]------
+ * ------....------
+ * --------b-------
+ */
+Matrix *mvAppend(Matrix *a, Vector *b) {
+    //TODO: append vector b into the bottom of matrix a
+    return NULL;
+}
+
+/**
+ * @param a
+ * @param column
+ * @return a->data[][column]
+ */
+double *vSliceC(Matrix *a, int column) {
+    double *slice = (double *) malloc(a->nrow * sizeof(double ));
+    for (int i = 0; i < a->nrow; ++i) {
+        slice[i] = a->data[i][column];
+    }
+    return slice;
+}
+/**
+ * @param a
+ * @param row
+ * @return a->data[row][]
+ */
+double *vSliceR(Matrix *a, int row) {
+    return a->data[row];
+}
+
 
 
 

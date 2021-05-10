@@ -32,6 +32,28 @@ void declareVector(Vector *vt) {
     insertList(newObject);
 }
 
+void deleteMatrix(Matrix *mt) {
+    if (head->mt->name == mt->name || head->mt->ncol == mt->ncol || head->mt->nrow == mt->nrow) {
+        ObjectList *tmp = head->next;
+        freeMatrix(head->mt);
+        free(head);
+        head = tmp;
+        return;
+    }
+
+    Matrix *curr;
+    for (ObjectList *tmp = head; tmp->next != NULL ; tmp = tmp->next) {
+        curr = tmp->next->mt;
+        if (curr->name == mt->name || curr->ncol == mt->ncol || curr->nrow == mt->nrow) {
+            ObjectList *tmp2 = tmp->next->next;
+            freeMatrix(tmp->next->mt);
+            free(tmp->next);
+            tmp->next = tmp2;
+            return;
+        }
+    }
+}
+
 void cleanList(ObjectList *tmp) {
     if (tmp->next != NULL) {
         cleanList(tmp->next);

@@ -34,7 +34,7 @@ void insertList(ObjectList *newObject);
 void declareMatrix(Matrix *mt);
 void declareVector(Vector *vt);
 void cleanList(ObjectList *tmp);
-
+void deleteMatrix(Matrix *mt);
 void printList();
 
 #endif //NEURALNET_SB_OBJECTMANAGER_H

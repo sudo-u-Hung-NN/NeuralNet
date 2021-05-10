@@ -23,7 +23,7 @@ Matrix *eye(int size);
 Matrix *reshape(Matrix *mt, int nrow, int ncol);
 Vector *flatten(Matrix *mt);
 Matrix *append(Matrix *a, Matrix *b);
-
+void assignArray(double *Array, const double *data, int num_mem);
 
 void freeMatrix(Matrix *mt);
 void printMatrix(Matrix* mt);

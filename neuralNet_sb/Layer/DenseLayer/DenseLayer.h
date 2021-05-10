@@ -23,6 +23,6 @@ struct DenseLayer {
 };
 
 DenseLayer *newDenseLayer(char *name, int num_node);
-void forwardLayer(Matrix *input);
+void forwardLayer(DenseLayer *currentDense, Matrix *input);
 
 #endif //NEURALNET_SB_DENSELAYER_H

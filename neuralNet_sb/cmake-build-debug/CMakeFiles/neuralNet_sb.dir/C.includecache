@@ -10,13 +10,27 @@
 stdio.h
 /home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/ExceptionHandling/stdio.h
 
+/home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/Layer/Activation/ReluActivationLayer.c
+ReluActivationLayer.h
+/home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/Layer/Activation/ReluActivationLayer.h
+
 /home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/Layer/Activation/ReluActivationLayer.h
 ../../Linagb/Linagb.h
 /home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/Linagb/Linagb.h
 
+/home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/Layer/Activation/SigmoidActivationLayer.c
+SigmoidActivationLayer.h
+/home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/Layer/Activation/SigmoidActivationLayer.h
+math.h
+/home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/Layer/Activation/math.h
+
 /home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/Layer/Activation/SigmoidActivationLayer.h
 ../../Linagb/Linagb.h
 /home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/Linagb/Linagb.h
+
+/home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/Layer/DenseLayer/DenseLayer.c
+DenseLayer.h
+/home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/Layer/DenseLayer/DenseLayer.h
 
 /home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/Layer/DenseLayer/DenseLayer.h
 ../../Object/ObjectManager.h
@@ -50,8 +64,16 @@ Activation/SigmoidActivationLayer.h
 Activation/ReluActivationLayer.h
 /home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/Layer/Activation/ReluActivationLayer.h
 
+/home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/Layer/SoftmaxLayer/SoftmaxLayer.c
+SoftmaxLayer.h
+/home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/Layer/SoftmaxLayer/SoftmaxLayer.h
+
 /home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/Layer/SoftmaxLayer/SoftmaxLayer.h
 ../../Linagb/Linagb.h
+/home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/Linagb/Linagb.h
+
+/home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/Linagb/Linagb.c
+Linagb.h
 /home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/Linagb/Linagb.h
 
 /home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/Linagb/Linagb.h
@@ -85,4 +107,10 @@ string.h
 /home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/Object/Vector/string.h
 ../../ExceptionHandling/error.h
 /home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/ExceptionHandling/error.h
+
+/home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/main.c
+Linagb/Linagb.h
+/home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/Linagb/Linagb.h
+Layer/Layer.h
+/home/ashitaka/Objective-C/NeuralNet/neuralNet_sb/Layer/Layer.h
 

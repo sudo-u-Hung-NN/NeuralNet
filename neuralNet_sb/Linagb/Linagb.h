@@ -29,7 +29,7 @@ Vector *vSumi(double immediate, Vector *b);
 
 // Vector - Matrix interaction
 Matrix *mvAppend(Matrix *a, Vector *b);
-Vector *vSliceC(Matrix *a, int column);
-Vector *vSliceR(Matrix *a, int row);
+double *vSliceC(Matrix *a, int column);
+double *vSliceR(Matrix *a, int row);
 
 #endif //NEURALNET_SB_LINAGB_H
