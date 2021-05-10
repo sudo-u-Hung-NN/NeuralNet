@@ -31,3 +31,5 @@ Contact:
 3. Layer \*outputLayer
 - **\*outputLayer** pointer points to the tail of layers' list.
 - When a new layer is added, **\*outputLayer** is changed to point that latest layer.
+
+## Notices:
